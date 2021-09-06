@@ -1,2 +1,3 @@
-# bugs
-Fool me once, shame on you. Fool me twice, shame on me.
+## Can not enable VSCode Intellisense when working with Unity C# project
+* If you use unity project `gitignore` template, remember to remove **.sln** from `gitignore`, otherwise VSCode couldn't fetch project setting thus no Intellisense enabled.
+
